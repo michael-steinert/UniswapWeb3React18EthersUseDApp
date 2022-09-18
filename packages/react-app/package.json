@@ -15,34 +15,38 @@
     ]
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/providers": "^5.7.1",
     "@my-app/contracts": "^1.0.0",
-    "@apollo/client": "^3.5.10",
-    "@ethersproject/contracts": "^5.6.0",
-    "@ethersproject/providers": "^5.6.0",
-    "@testing-library/dom": "^8.11.3",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/react": "^17.0.40",
-    "@usedapp/core": "^0.12.1",
-    "graphql": "^16.3.0",
-    "ipfs-deploy": "^11.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.3",
-    "styled-components": "^5.3.3"
+    "@types/react": "^18.0.20",
+    "@usedapp/core": "^1.1.5",
+    "graphql": "^16.6.0",
+    "ipfs-deploy": "^12.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "ethers": "^5.7.1",
+    "web3": "^1.8.0"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "ipfs": "yarn build && ipfs-deploy build/",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "start": "react-scripts start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
